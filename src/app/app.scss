@@ -1,0 +1,8 @@
+:host { display: block; min-height: 100dvh; }
+.page-shell { width: min(1120px, calc(100% - 32px)); margin: 0 auto; padding: clamp(32px, 6vw, 72px) 0; }
+.page-header {
+  margin-bottom: 24px;
+  h1 { margin: 4px 0 8px; font-size: clamp(2rem, 5vw, 3.6rem); line-height: 1; letter-spacing: -0.055em; }
+  p { max-width: 620px; margin: 0; color: #505050; line-height: 1.55; }
+  .eyebrow { color: #111; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; }
+}

@@ -1,12 +1,10 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component } from '@angular/core';
+import { WalkingScene } from './walking-scene/walking-scene';
 
 @Component({
-  imports: [RouterOutlet],
+  imports: [WalkingScene],
   selector: 'app-root',
   styleUrl: './app.scss',
   templateUrl: './app.html',
 })
-export class App {
-  protected readonly title = signal('walking-path');
-}
+export class App {}
